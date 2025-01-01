@@ -9,3 +9,7 @@ Route::get('/admin-home', function () {
 Route::get('/admin-calender', function () {
     return view('admin.calender');
 })->name('admin.calender');
+
+Route::get('/admin-appointment', function () {
+    return view('admin.appointment');
+})->name('admin.appointment');
